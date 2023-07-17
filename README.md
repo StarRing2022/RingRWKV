@@ -1,0 +1,2 @@
+# RingRWKV
+修复Transformer官方库中RWKV的适配问题，支持RWKV所有系列模型在转换后，通过RingRWKV库，与其他transfomer模型一样简单方便地部署和微调。
