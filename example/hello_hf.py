@@ -4,7 +4,7 @@ from ringrwkv.rwkv_tokenizer import TRIE_TOKENIZER
 from ringrwkv.modehf_world import RwkvForCausalLM
 
 
-model = RwkvForCausalLM.from_pretrained("StarRing2022/RWKV-4-World-7B")
+model = RwkvForCausalLM.from_pretrained("RWKV-4-World-7B")
 tokenizer = TRIE_TOKENIZER('./ringrwkv/rwkv_vocab_v20230424.txt')
      
 text = "你叫什么名字？"
